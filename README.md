@@ -2,26 +2,6 @@ Project Roadmap: Predicting Loan Approval
 1. Data Acquisition and Exploration:
 
 Obtain the loan application dataset containing the following features:
-ID
-Customer_ID
-Month
-Name
-Age
-SSN (Social Security Number)
-Occupation
-Annual Income
-Monthly Inhand Salary
-Num Bank Accounts
-Credit Mix
-Outstanding Debt
-Credit Utilization Ratio
-Credit History Age
-Payment of Min Amount
-Total EMI per month
-Amount invested monthly
-Payment Behaviour
-Monthly Balance
-Credit Score
 Explore the dataset to understand its structure, distributions, missing values, and potential relationships between features.
 2. Data Preprocessing:
 
