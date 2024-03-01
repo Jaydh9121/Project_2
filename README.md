@@ -1,76 +1,72 @@
-## Project 2 - howarth-ibrahim-hassanein-conley
+# Credit Score Prediction Project
 
-# Project Proposal
-- The goal of this project is to create an algorithm that analyzes credit scores and predicts consumer personal-loan eligibility. We’ll examine relationships between credit scores, monthly/annual incomes, outstanding debt, and other credit-influencing features.
+This repository contains code for a machine learning project that predicts credit scores based on various features.
 
-# Data Collection
-- We looked at various APIs and other data sources. As a starting point, we searched for a data set that had atleast 1,000 records and that had multiple features. We chose the follwoing data set: https://www.kaggle.com/datasets/parisrohan/credit-score-classification. The data set is in csv format, and is easily read into a pandas datafame for cleaning, testing and analysis.   
+## Overview
 
-# Project Roadmap: Predicting Consumer Personal-Loan Eligibilty
-1. Data Acquisition and Exploration:
+The code in this repository performs the following tasks:
 
-Obtain a dataset containing at least the following features: Occupation, annual income, monthly income, number of bank accounts, number of credit cards, number of loans, number of credit inquiries, outstanding debt, credit score. 
-Explore the dataset to understand its structure, distributions, missing values, and potential relationships between features.
+- Data preprocessing
+- Model training and evaluation
+- Model selection
+- Model deployment
 
-2. Data Preprocessing:
+## Code Description
 
-Handle missing values, if any, through imputation or removal.
-Encode categorical variables using techniques such as one-hot encoding or label encoding.
-Scale numerical features to ensure they have similar ranges.
+The code is implemented in a Jupyter Notebook (`.ipynb` file) and utilizes several Python libraries including:
 
-3. Feature Engineering:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- catboost
 
-Create new features if necessary, such as debt-to-income ratio or credit utilization category.
-Select relevant features based on domain knowledge and feature importance analysis.
+The main steps in the code include:
 
-4. Model Selection and Training:
+1. Importing necessary libraries
+2. Loading the dataset
+3. Data preprocessing:
+    - Handling missing values
+    - Encoding categorical variables
+    - Scaling numerical features
+4. Exploratory data analysis (EDA)
+5. Building and evaluating machine learning models:
+    - KNeighborsClassifier
+    - RandomForestClassifier
+    - GradientBoostingClassifier
+    - Support Vector Machine (SVM)
+    - Logistic Regression
+    - Naive Bayes
+    - Decision Tree
+    - AdaBoost
+    - CatBoost
+6. Model selection based on performance metrics
+7. Model deployment
 
-Choose appropriate machine learning algorithms for the classification task, such as Logistic Regression, Random Forest, or Gradient Boosting.
-Split the dataset into training and testing sets.
-Train the selected models on the training data.
+## Usage
 
-5. Model Evaluation:
+To run the code:
 
-Evaluate the trained models using performance metrics such as accuracy, precision, recall, and F1-score on the testing data.
-Compare the performance of different models and select the best-performing one.
+1. Ensure you have Python installed on your system.
+2. Install the required Python libraries using `pip install -r requirements.txt`.
+3. Open the Jupyter Notebook file (`credit_score_prediction.ipynb`) and execute each cell sequentially.
 
-6. Model Interpretation:
+## Results
 
-Interpret the trained model to understand which features are most influential in predicting loan approval.
-Gain insights into the factors that affect loan approval decisions.
+After evaluating various machine learning models based on performance metrics such as accuracy, precision, recall, and F1 score, the Random Forest Classifier was selected as the model of choice for predicting credit scores.
 
-7. Model Deployment:
+## Data Source
 
-Deploy the final model as a predictive tool that can be used to assess loan eligibility automatically.
-Integrate the model into the loan approval process of the organization, ensuring it meets regulatory and compliance requirements.
+The dataset used in this project was obtained from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/parisrohan/credit-score-classification).
 
-8. Next Steps:
+## Code Source
 
-Monitor the performance of the deployed model and update it periodically with new data.
-Consider incorporating additional data sources or refining features to improve model accuracy and robustness.
-Explore the possibility of implementing explainable AI techniques to provide transparent explanations for model predictions.
+The code implementation in this project was developed with the assistance of the ChatGPT language model. 
 
-9. Documentation and Presentation:
+## Files
 
-Document the entire project process, including data preprocessing, model development, and evaluation.
-Prepare a presentation summarizing the project goals, methodology, findings, and next steps.
-Communicate the results effectively to stakeholders, including management, data scientists, and business users.
-
-# Software Version Control
-- A GitHub repository was created.  All group members contributed to repository.
-- Each GitHub commit was annotated to ensure proper communication between group members.
-- Supporting files were also uploaded and evaluated by the group.
-
-# Documentation
-- Relevant notes have been included with all code as well as the Readme.md.
-- There are no installation requirements.
-
-# Findings and Implications
-- The findings indicate 
-- The findings indicate 
-
-## Appendix (Resources)
-- https://www.kaggle.com/datasets/parisrohan/credit-score-classification
-- Project Dashboard with tasks 
-
+- `credit_score_prediction.ipynb`: Jupyter Notebook containing the code.
+- `requirements.txt`: File listing the required Python libraries.
+- `model.pk1`: Serialized model file.
 
