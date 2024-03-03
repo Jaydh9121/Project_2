@@ -50,7 +50,7 @@ To run the code:
 
 1. Ensure you have Python installed on your system.
 2. Install the required Python libraries using `pip install -r requirements.txt`.
-3. Open the Jupyter Notebook file (`credit_score_prediction.ipynb`) and execute each cell sequentially.
+3. Open the Jupyter Notebook file (`ML.ipynb`) and execute each cell sequentially.
 
 ## Results
 
@@ -66,7 +66,7 @@ The code implementation in this project was developed with the assistance of the
 
 ## Files
 
-- `credit_score_prediction.ipynb`: Jupyter Notebook containing the code.
+- `ML.ipynb`: Jupyter Notebook containing the code.
 - `requirements.txt`: File listing the required Python libraries.
 - `model.pk1`: Serialized model file.
 
