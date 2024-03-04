@@ -16,10 +16,10 @@ The code in this repository performs the following tasks:
 The code is implemented in a Jupyter Notebook (`.ipynb` file) and utilizes several Python libraries including:
 
 - pandas
-- numpy
+- NumPy
 - matplotlib
 - seaborn
-- scikit-learn
+- sci-kit-learn
 - catboost
 
 The main steps in the code include:
@@ -42,7 +42,7 @@ The main steps in the code include:
     - AdaBoost
     - CatBoost
 6. Model selection based on performance metrics
-7. Model deployment
+7. Model Deployment
 
 ## Usage
 
@@ -54,7 +54,7 @@ To run the code:
 
 ## Results
 
-After evaluating various machine learning models based on performance metrics such as accuracy, precision, recall, and F1 score, the Random Forest Classifier was selected as the model of choice for predicting credit scores.
+After evaluating various machine learning models based on performance metrics such as accuracy, precision, recall, and F1 score, the GradientBoostingClassifier was selected as the model of choice for predicting credit scores.
 
 ## Data Source
 
