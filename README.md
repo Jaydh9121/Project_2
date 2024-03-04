@@ -49,7 +49,7 @@ The main steps in the code include:
 To run the code:
 
 1. Ensure you have Python installed on your system.
-2. Install the required Python libraries using `pip install -r requirements.txt`.
+2. Install the required Python libraries.
 3. Open the Jupyter Notebook file (`ML.ipynb`) and execute each cell sequentially.
 
 ## Results
@@ -63,10 +63,4 @@ The dataset used in this project was obtained from Kaggle. You can find the data
 ## Code Source
 
 The code implementation in this project was developed with the assistance of the ChatGPT language model. 
-
-## Files
-
-- `ML.ipynb`: Jupyter Notebook containing the code.
-- `requirements.txt`: File listing the required Python libraries.
-- `model.pk1`: Serialized model file.
 
